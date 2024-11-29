@@ -40,13 +40,16 @@
             permissionToolStripMenuItem = new ToolStripMenuItem();
             listsToolStripMenuItem2 = new ToolStripMenuItem();
             createToolStripMenuItem2 = new ToolStripMenuItem();
+            userRoleToolStripMenuItem = new ToolStripMenuItem();
+            listsToolStripMenuItem3 = new ToolStripMenuItem();
+            createToolStripMenuItem3 = new ToolStripMenuItem();
             menuStrip1.SuspendLayout();
             SuspendLayout();
             // 
             // menuStrip1
             // 
             menuStrip1.ImageScalingSize = new Size(20, 20);
-            menuStrip1.Items.AddRange(new ToolStripItem[] { fileToolStripMenuItem, userToolStripMenuItem, roleToolStripMenuItem, permissionToolStripMenuItem });
+            menuStrip1.Items.AddRange(new ToolStripItem[] { fileToolStripMenuItem, userToolStripMenuItem, roleToolStripMenuItem, permissionToolStripMenuItem, userRoleToolStripMenuItem });
             menuStrip1.Location = new Point(0, 0);
             menuStrip1.Name = "menuStrip1";
             menuStrip1.Size = new Size(1900, 28);
@@ -78,14 +81,14 @@
             // listsToolStripMenuItem
             // 
             listsToolStripMenuItem.Name = "listsToolStripMenuItem";
-            listsToolStripMenuItem.Size = new Size(224, 26);
+            listsToolStripMenuItem.Size = new Size(135, 26);
             listsToolStripMenuItem.Text = "Lists";
             listsToolStripMenuItem.Click += listsToolStripMenuItem_Click;
             // 
             // createToolStripMenuItem
             // 
             createToolStripMenuItem.Name = "createToolStripMenuItem";
-            createToolStripMenuItem.Size = new Size(224, 26);
+            createToolStripMenuItem.Size = new Size(135, 26);
             createToolStripMenuItem.Text = "Create";
             // 
             // roleToolStripMenuItem
@@ -98,14 +101,14 @@
             // listsToolStripMenuItem1
             // 
             listsToolStripMenuItem1.Name = "listsToolStripMenuItem1";
-            listsToolStripMenuItem1.Size = new Size(224, 26);
+            listsToolStripMenuItem1.Size = new Size(135, 26);
             listsToolStripMenuItem1.Text = "Lists";
             listsToolStripMenuItem1.Click += listsToolStripMenuItem1_Click;
             // 
             // createToolStripMenuItem1
             // 
             createToolStripMenuItem1.Name = "createToolStripMenuItem1";
-            createToolStripMenuItem1.Size = new Size(224, 26);
+            createToolStripMenuItem1.Size = new Size(135, 26);
             createToolStripMenuItem1.Text = "Create";
             // 
             // permissionToolStripMenuItem
@@ -118,15 +121,35 @@
             // listsToolStripMenuItem2
             // 
             listsToolStripMenuItem2.Name = "listsToolStripMenuItem2";
-            listsToolStripMenuItem2.Size = new Size(224, 26);
+            listsToolStripMenuItem2.Size = new Size(135, 26);
             listsToolStripMenuItem2.Text = "Lists";
             listsToolStripMenuItem2.Click += listsToolStripMenuItem2_Click;
             // 
             // createToolStripMenuItem2
             // 
             createToolStripMenuItem2.Name = "createToolStripMenuItem2";
-            createToolStripMenuItem2.Size = new Size(224, 26);
+            createToolStripMenuItem2.Size = new Size(135, 26);
             createToolStripMenuItem2.Text = "Create";
+            // 
+            // userRoleToolStripMenuItem
+            // 
+            userRoleToolStripMenuItem.DropDownItems.AddRange(new ToolStripItem[] { listsToolStripMenuItem3, createToolStripMenuItem3 });
+            userRoleToolStripMenuItem.Name = "userRoleToolStripMenuItem";
+            userRoleToolStripMenuItem.Size = new Size(82, 24);
+            userRoleToolStripMenuItem.Text = "UserRole";
+            // 
+            // listsToolStripMenuItem3
+            // 
+            listsToolStripMenuItem3.Name = "listsToolStripMenuItem3";
+            listsToolStripMenuItem3.Size = new Size(224, 26);
+            listsToolStripMenuItem3.Text = "Lists";
+            listsToolStripMenuItem3.Click += listsToolStripMenuItem3_Click;
+            // 
+            // createToolStripMenuItem3
+            // 
+            createToolStripMenuItem3.Name = "createToolStripMenuItem3";
+            createToolStripMenuItem3.Size = new Size(224, 26);
+            createToolStripMenuItem3.Text = "Create";
             // 
             // frmMain
             // 
@@ -159,5 +182,8 @@
         private ToolStripMenuItem permissionToolStripMenuItem;
         private ToolStripMenuItem listsToolStripMenuItem2;
         private ToolStripMenuItem createToolStripMenuItem2;
+        private ToolStripMenuItem userRoleToolStripMenuItem;
+        private ToolStripMenuItem listsToolStripMenuItem3;
+        private ToolStripMenuItem createToolStripMenuItem3;
     }
 }

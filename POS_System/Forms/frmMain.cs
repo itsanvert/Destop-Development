@@ -49,5 +49,11 @@ namespace POS_System.Forms
         {
             Application.Exit();
         }
+
+        private void listsToolStripMenuItem3_Click(object sender, EventArgs e)
+        {
+            Forms.frmUserRole frmMain = new Forms.frmUserRole();
+            frmMain.ShowDialog();
+        }
     }
 }
